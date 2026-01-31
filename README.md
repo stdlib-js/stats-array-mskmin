@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@deno/mod.js';
+import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@v0.1.0-deno/mod.js';
 ```
 
 #### mskmin( x, mask )
@@ -92,7 +92,7 @@ The function has the following parameters:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@deno/mod.js';
+import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@v0.1.0-deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
