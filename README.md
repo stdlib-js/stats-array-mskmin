@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-mskmin/tags). For example,
+
+```javascript
 import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@v0.1.1-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ The function has the following parameters:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@v0.1.1-deno/mod.js';
+import mskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmin@deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
